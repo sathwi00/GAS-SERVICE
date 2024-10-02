@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Gas Cylinder Booking🏮</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<style>
+  .container{
+    width: 40%;
+   min-height: 30%;
+    background: transparent;
+    border-color: aliceblue;
+    border: 4px;
+    box-shadow: none;
+    size:75%;
+    
+  }
+  .card{
+    width: 95%;
+    font-size: 25px;
+    border-radius: 20px ;
+    border-color: #fff;
+    color: #fff;
+    
+  }
+  .input-field {
+   width: 40%;
+   padding: 10px;
+   border: 1px solid #dddddd;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+  .btn{
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: black;
+  }
+  .btn-secondary{
+    background-color: #eb801d;
+    color: rgb(255, 255, 255);
+  }
+  .btn:hover{
+    background-color: #eb801d;
+    color: rgb(255, 254, 254);
+  
+  }
+  .btn-secondary:hover{
+    background-color: #ffffff;
+    color: black;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h1>Login</h1>
+      </div>
+      <div class="card-content">
+        <div class="mb-4">
+          <label for="loginUsername">Username:</label>
+          <input type="text" id="loginUsername" class="input-field" />
+        </div>
+        <div class="mb-4">
+          <label for="loginPhoneNumber">Phone No:</label>
+          <input type="tel" id="loginPhoneNumber" class="input-field" />
+        </div>
+        <div class="mb-4">
+          <label for="loginPassword">Password:</label>
+          <input type="password" id="loginPassword" class="input-field" />
+        </div>
+      
+        <p id="loginStatus"></p>
+        <a href="order.html" class="btn">login</a>
+        <a href="index.html" class="btn btn-secondary">Back to Home</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
